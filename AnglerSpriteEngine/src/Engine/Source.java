@@ -82,8 +82,8 @@ public class Source {
         graphicsOfBuffer.setColor(Color.black);
         graphicsOfBuffer.fillRect(0, 0, winWidth, winHeight);
                
-        graphicsOfBuffer.setColor(Color.magenta);            // if x,y,50,50 then movable :)
-        graphicsOfBuffer.fillRect(600, 300, 50, 50);        // by the time we are Updating!!
+        graphicsOfBuffer.setColor(Color.magenta);
+        graphicsOfBuffer.fillRect(600, 300, 50, 50);
         
         graphics.drawImage(buffer, 0, 0, frame);
     }
